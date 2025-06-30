@@ -1,0 +1,11 @@
+{
+  "name": "jaideep/helloworld",
+  "description": "A sample Hello World package for Laravel",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Jaideep\\HelloWorld\\": "src/"
+    }
+  },
+  "require": {}
+}
