@@ -3,6 +3,7 @@
 namespace Jaideep\HelloWorld;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Facades\Route;
 
 class HelloWorldServiceProvider extends ServiceProvider
 {
