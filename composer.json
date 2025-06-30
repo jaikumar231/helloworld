@@ -2,10 +2,17 @@
   "name": "jaideep/helloworld",
   "description": "A sample Hello World package for Laravel",
   "type": "library",
+  "version": "dev-main",
   "autoload": {
     "psr-4": {
       "Jaideep\\HelloWorld\\": "src/"
     }
   },
-  "require": {}
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Jaideep\\HelloWorld\\HelloWorldServiceProvider"
+      ]
+    }
+  }
 }
